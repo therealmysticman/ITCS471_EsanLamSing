@@ -14,7 +14,7 @@ public class SciencePlan extends Object{
     private DataProcRequirement dataProcRequirements;
 
     public SciencePlan(){
-
+        //What's this
     }
     public SciencePlan(String creator, String submitter, double fundingInUSD, String objectives, StarSystem.CONSTELLATIONS starSystem, Date startDate, Date endDate, SciencePlan.TELESCOPELOC telescopeLocation, DataProcRequirement dataProcRequirements){
         this.creator = creator;
